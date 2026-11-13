@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "evil_snowmen:item/dirty_snowball"
-  }
-}
