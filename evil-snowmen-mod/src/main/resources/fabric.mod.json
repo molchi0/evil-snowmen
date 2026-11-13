@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "evil_snowmen",
+  "version": "${version}",
+  "name": "Evil Snowmen",
+  "description": "Злые снеговики с грязным снегом и злой тыквой стреляют в тебя снежками, которые бьют и замораживают.",
+  "authors": ["Артём"],
+  "license": "MIT",
+  "icon": "assets/evil_snowmen/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.evilsnowmen.EvilSnowmenMod"],
+    "client": ["net.evilsnowmen.client.EvilSnowmenClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
